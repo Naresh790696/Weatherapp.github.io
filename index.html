@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1f2fe73c42.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container text-center border bg-primary">
+        <div class="container py-5 text-center">
+            <h1 class="py-3 fw-bold fs-10" style="opacity: 0.8;">Wather forcast</h1>
+            <input type="text" class="py-2 px-5" name="display" id="display" placeholder="Enter the City or Country name">
+            <button id="button" class="btn bg-dark text-light fw-bold fs-5">Search</button>
+
+            <div class="container mt-3 bg-light fw-bold ls-1px">
+                <ul class="listcontainer text-center" style="list-style: none;">
+                    <li class="cityname">Cityname:<h4 class="cityval"></h4></li>
+                    <li class="contryname">Countryname:<h4 class="contryval"></h4></li>
+                    <li class="maxtemp">Max-temp:<h4 class="tempmax"></h4></li>
+                    <li class="mintemp">Min-temp:<h4 class="tempmin"></h4></li>
+                    <li class="weathericon">Weather-icon:<h4 class="iconval"></h4></li>
+                </ul>
+            </div>
+        </div>
+            
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
